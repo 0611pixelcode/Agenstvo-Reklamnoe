@@ -1,0 +1,96 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.logo{
+  width: 500px;
+  margin-left: 100px;
+  margin-top: -200px;
+}
+
+.header-display{
+  
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  width: 900px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.header-list{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.header-list-item{
+  margin-right: 100px;
+}
+
+.header-list-item-decoration{
+  color: aliceblue;
+  font-size: 25px;
+  font-family: 'Mulish', sans-serif;
+  transition: all 0.5s;
+}
+
+.header-list-item-decoration:hover{
+  color: chocolate;
+
+}
+
+.Marketing{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.Marketing-info{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  border: 0.5px solid rgb(165, 164, 164);
+  border-radius: 50px;
+  margin-right: 50px;
+  
+}
+
+.Marketing-info-Loremchik{
+  font-size: 30px;
+  font-family: "Mulish";
+  margin-left: 55px;
+  font-weight: 900;
+
+}
+
+.Marketing-info-tekst{
+  width: 150px;
+  font-size: 15px;
+  font-family: "Mulish";
+  margin-left: 30px;
+  margin-top: -10px;
+  
+}
+
+.Marketing-foto{
+  margin-left: 60px;
+}
